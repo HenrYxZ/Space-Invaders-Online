@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A7399DD-D4AB-4B97-9D4B-61603FCD1904}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tarea5</RootNamespace>
+    <AssemblyName>Tarea5</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>rocket.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cronometro.cs" />
+    <Compile Include="Disparo.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Opciones.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Opciones2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Opciones.xaml.cs">
+      <DependentUpon>Opciones.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Opciones2.xaml.cs">
+      <DependentUpon>Opciones2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="CamioncitoDer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Tarea5Backend\Tarea5Backend.csproj">
+      <Project>{E404F36C-9B4A-40A2-A09C-7FEC109BEFBA}</Project>
+      <Name>Tarea5Backend</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="CamioncitoIzq.png" />
+    <Resource Include="Fabrica.png" />
+    <Resource Include="nave1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Game.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Cristales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Cañon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="nave2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="disparo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="explosion7.png" />
+    <Resource Include="explosion1.png" />
+    <Resource Include="explosion10.png" />
+    <Resource Include="explosion11.png" />
+    <Resource Include="explosion12.png" />
+    <Resource Include="explosion13.png" />
+    <Resource Include="explosion14.png" />
+    <Resource Include="explosion15.png" />
+    <Resource Include="explosion16.png" />
+    <Resource Include="explosion2.png" />
+    <Resource Include="explosion3.png" />
+    <Resource Include="explosion4.png" />
+    <Resource Include="explosion5.png" />
+    <Resource Include="explosion6.png" />
+    <Resource Include="explosion8.png" />
+    <Resource Include="explosion9.png" />
+    <Resource Include="Misil.png" />
+    <Resource Include="plasma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="disparo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Nuke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Shield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Enemigo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="rocket.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fantasy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="terra1920x1200.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

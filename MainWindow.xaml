@@ -1,0 +1,237 @@
+﻿<Window x:Class="Tarea5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="InVas0rEs eSpaZialeSSss" Height="700" Width="1200" Icon="/Tarea5;component/rocket.ico"
+        KeyDown="MainWindow_KeyDown" Closed="Window_Closed" WindowStartupLocation="CenterScreen">
+
+    <Grid Name="GridPrincipal" >
+       
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="867" />
+            <ColumnDefinition Width="268*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="589" />
+            <RowDefinition Height="61*" />
+        </Grid.RowDefinitions>
+        
+        
+        <Border Name="border0"  Grid.Row="0" Grid.Column="0" BorderThickness="2" BorderBrush="Gray">
+            <Grid Name="Jueguito" Width="868" Height="588">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/Tarea5;component/terra1920x1200.jpg" />
+                </Grid.Background>
+
+                <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+                <ColumnDefinition Width="31" />
+
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+                    <RowDefinition Height="21" />
+
+                </Grid.RowDefinitions>
+                
+                
+                
+                <Image Grid.Column="25" Grid.ColumnSpan="3" Grid.Row="25" Grid.RowSpan="3" HorizontalAlignment="Left" Name="fabric"
+                       Stretch="Fill" Source="/Tarea5;component/Fabrica.png"/>
+                <Image Grid.Column="25" Grid.ColumnSpan="3" Grid.Row="0" Grid.RowSpan="3" HorizontalAlignment="Left" Name="fabric2"
+                       Stretch="Fill" Source="/Tarea5;component/Fabrica.png"/>
+                <Image Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="25" Grid.RowSpan="3" HorizontalAlignment="Left" Name="mine"
+                       Stretch="Fill" Source="/Tarea5;component/Cristales.png"/>
+                <Image Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0" Grid.RowSpan="3" HorizontalAlignment="Left" Name="mine2"
+                       Stretch="Fill" Source="/Tarea5;component/Cristales.png"/>
+                <Image Name="imgcañon" Grid.Column="14" Grid.Row="22" Grid.RowSpan="3" Grid.ColumnSpan="1" 
+                       Source="/Tarea5;component/Cañon.png" />
+            </Grid>
+        </Border>
+        
+        <Border Name="border1"  Grid.Row="0" Grid.Column="1" BorderThickness="2" BorderBrush="Gray" >
+            
+            <Grid Name="grid2" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="42*" />
+                    <RowDefinition Height="40*" />
+                    <RowDefinition Height="40*" />
+                    <RowDefinition Height="40*" />
+                    <RowDefinition Height="40*" />
+                    <RowDefinition Height="40*" />
+                    <RowDefinition Height="40*" />
+                    <RowDefinition Height="81*" />
+                    <RowDefinition Height="40*" />
+                    <RowDefinition Height="48*" />
+                    <RowDefinition Height="129*" />
+                </Grid.RowDefinitions>
+                <Grid.Background>
+                    <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                        <GradientStop Color="#FF272323" Offset="0" />
+                        <GradientStop Color="#E8AD6423" Offset="1" />
+                    </LinearGradientBrush>
+                </Grid.Background>
+                <TextBlock Text="InVas0rEs eSpaZialeSSss" FontFamily="Shonar Bangla" FontWeight="Bold"  
+                           FontSize="24" FontStretch="Normal" Margin="0,21,0,0" TextAlignment="Center" Foreground="#FFF2F216"/>
+                <TextBlock Name="textLvlJuego" Grid.Row="1" Height="48" HorizontalAlignment="Left" Margin="14,6,0,0" 
+                           Text="Nivel del juego    =   1" VerticalAlignment="Top" Width="281" Foreground="#FFF2F216" FontSize="18" />
+                <TextBlock Grid.Row="2" Height="41" HorizontalAlignment="Left" Margin="6,13,0,0" Name="textTiempo" Text="Tiempo transcurrido    =   0" 
+                           VerticalAlignment="Top" Width="289" Foreground="#FFF2F216" FontSize="18" />
+                <TextBlock Grid.Row="3" Height="45" HorizontalAlignment="Left" Margin="0,11,0,0" Name="textRecursos"
+                           Text=" Recursos disponibles  =   1000" VerticalAlignment="Top" Width="284" Foreground="#FFF2F216" FontSize="18" />
+                <TextBlock Name="textDinero" Grid.Row="4" Text="Dinero disponible   =   100" Foreground="#FFF2F216" FontSize="18" />
+                <TextBlock Grid.Row="5" Text="Para Comprar Presione ( B )" Foreground="#FFF2F216" FontSize="18" FontFamily="SimHei"
+                           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBlock Name="textComprando"  Grid.Row="6" Foreground="#FFF2F216" FontSize="18" FontFamily="SimHei"
+                           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBlock Grid.Row="7" 
+                           Text=
+"PaRA eLeGIr ArMa a UsAr  
+prEsiOnE 1,2,3 o 4  
+Para comprar 
+escudos presione arriba" 
+                           Foreground="#FFF2F216" FontSize="18" FontFamily="SimHei"
+                           VerticalAlignment="Center" HorizontalAlignment="Center" Height="81" Margin="0,0,-2,0" Width="308" TextAlignment="Center" />
+                <TextBlock Name="textArma"  Grid.Row="8" Text="Arma que se está usando = Laser" Foreground="#FFF2F216" FontSize="18"
+                           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBlock Name="textEscudo" Grid.Row="9" Text="Nivel de escudos = " Foreground="#FFF2F216" FontSize="18" 
+                           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBlock Grid.Row="10" Height="53"  Name="textVidas" Text="Vidas ="
+                           Foreground="#FFF2F216" FontSize="18" 
+                           VerticalAlignment="Center" HorizontalAlignment="Center" Width="204" />
+            </Grid>
+            
+            
+        </Border>
+        
+        <Border Name="border2"  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BorderThickness="2" BorderBrush="Gray">
+            <Grid Name="grid3" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="109*" />
+                    <ColumnDefinition Width="77*" />
+                    <ColumnDefinition Width="108*" />
+                    <ColumnDefinition Width="109*" />
+                    <ColumnDefinition Width="77*" />
+                    <ColumnDefinition Width="108*" />
+                    <ColumnDefinition Width="109*" />
+                    <ColumnDefinition Width="77*" />
+                    <ColumnDefinition Width="108*" />
+                    <ColumnDefinition Width="109*" />
+                    <ColumnDefinition Width="77*" />
+                    <ColumnDefinition Width="108*" />
+                    
+                </Grid.ColumnDefinitions>
+                <Grid.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF272323" Offset="0" />
+                        <GradientStop Color="#E8AD6423" Offset="1" />
+                    </LinearGradientBrush>
+                </Grid.Background>
+                <TextBlock Text="Laser" Grid.Column="0" Name="label1"  FontSize="18" Foreground="#FFF2F216" 
+                           FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" />
+                <Border Name="bordeArma1" Grid.Column="1" BorderBrush="Black" BorderThickness="3" />
+                <Border Name="bordeArma2" Grid.Column="4" BorderBrush="Black" BorderThickness="3" Visibility="Hidden"/>
+                <Border Name="bordeArma3" Grid.Column="7" BorderBrush="Black" BorderThickness="3" Visibility="Hidden"/>
+                <Border Name="bordeArma4" Grid.Column="10" BorderBrush="Black" BorderThickness="3" Visibility="Hidden"/>
+                
+                
+                    <Image Grid.Column="1" Source="/Tarea5;component/disparo.png"/>
+                
+                
+                <TextBlock Name="numLaser" Grid.Column="2" FontSize="18" Foreground="#FFF2F216" 
+                           FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" />
+                
+                <TextBlock Text="Misil" Grid.Column="3"  FontSize="18" Foreground="#FFF2F216" 
+                           FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" />
+                
+                    <Image Grid.Column="4" Source="/Tarea5;component/Misil.png"/>
+               
+                <TextBlock Name="numMisil" Grid.Column="5" FontSize="18" Foreground="#FFF2F216" 
+                           FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" />
+                
+                <TextBlock Text="Plasma" Grid.Column="6"  FontSize="18" Foreground="#FFF2F216" 
+                           FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" />
+                
+                    <Image Grid.Column="7" Source="/Tarea5;component/plasma.png"/>
+                
+                <TextBlock Name="numPlasma" Grid.Column="8" FontSize="18" Foreground="#FFF2F216" 
+                           FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" />
+                
+                <TextBlock Text="Escudo" Grid.Column="9"  FontSize="18" Foreground="#FFF2F216" 
+                           FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" />
+                
+                    <Image Grid.Column="10" Source="/Tarea5;component/Shield.png"/>
+                
+                <TextBlock Name="numNuke" Grid.Column="11" FontSize="18" Foreground="#FFF2F216" 
+                           FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" />
+                
+                
+                
+            </Grid>
+        </Border>
+        
+    
+    </Grid>
+</Window>

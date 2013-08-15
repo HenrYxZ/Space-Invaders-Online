@@ -1,0 +1,36 @@
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\bin\Debug\Tarea5.exe
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\bin\Debug\Tarea5.pdb
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\obj\x86\Debug\MainWindow.baml
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\obj\x86\Debug\App.g.cs
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\obj\x86\Debug\Tarea5_MarkupCompile.cache
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\obj\x86\Debug\Tarea5.g.resources
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\obj\x86\Debug\Tarea5.Properties.Resources.resources
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\obj\x86\Debug\Tarea5.exe
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\obj\x86\Debug\Tarea5.pdb
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\bin\Debug\Tarea5Backend.dll
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\bin\Debug\Tarea5Backend.pdb
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\obj\x86\Debug\Opciones.baml
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\obj\x86\Debug\Opciones.g.cs
+C:\Users\Jesús\Documents\Tarea6\bin\Debug\Tarea5Backend.dll
+C:\Users\Jesús\Documents\Tarea6\bin\Debug\Tarea5Backend.pdb
+C:\Users\Jesús\Documents\Tarea6\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jesús\Documents\Tarea6\obj\x86\Debug\MainWindow.baml
+C:\Users\Jesús\Documents\Tarea6\obj\x86\Debug\Opciones.baml
+C:\Users\Jesús\Documents\Tarea6\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Jesús\Documents\Tarea6\obj\x86\Debug\Opciones.g.cs
+C:\Users\Jesús\Documents\Tarea6\obj\x86\Debug\App.g.cs
+C:\Users\Jesús\Documents\Tarea6\obj\x86\Debug\Tarea5.Properties.Resources.resources
+C:\Users\Jesús\Documents\Tarea6\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jesús\Documents\Tarea6\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jesús\Documents\Tarea6\obj\x86\Debug\Opciones2.baml
+C:\Users\Jesús\Documents\Tarea6\obj\x86\Debug\Opciones2.g.cs
+C:\Users\Jesús\Documents\Tarea6\bin\Debug\Tarea5.exe
+C:\Users\Jesús\Documents\Tarea6\bin\Debug\Tarea5.pdb
+C:\Users\Jesús\Documents\Tarea6\obj\x86\Debug\Tarea5_MarkupCompile.cache
+C:\Users\Jesús\Documents\Tarea6\obj\x86\Debug\Tarea5.g.resources
+C:\Users\Jesús\Documents\Tarea6\obj\x86\Debug\Tarea5.exe
+C:\Users\Jesús\Documents\Tarea6\obj\x86\Debug\Tarea5.pdb

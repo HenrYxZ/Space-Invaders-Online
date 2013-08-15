@@ -1,0 +1,10 @@
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\Tarea5Backend\bin\Debug\Tarea5Backend.dll
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\Tarea5Backend\bin\Debug\Tarea5Backend.pdb
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\Tarea5Backend\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\Tarea5Backend\obj\Debug\Tarea5Backend.dll
+C:\Users\Jesús\Documents\Visual Studio 2010\Projects\Tarea5\Tarea5Backend\obj\Debug\Tarea5Backend.pdb
+C:\Users\Jesús\Documents\Tarea6\Tarea5Backend\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jesús\Documents\Tarea6\Tarea5Backend\obj\Debug\Tarea5Backend.dll
+C:\Users\Jesús\Documents\Tarea6\Tarea5Backend\obj\Debug\Tarea5Backend.pdb
+C:\Users\Jesús\Documents\Tarea6\Tarea5Backend\bin\Debug\Tarea5Backend.dll
+C:\Users\Jesús\Documents\Tarea6\Tarea5Backend\bin\Debug\Tarea5Backend.pdb
